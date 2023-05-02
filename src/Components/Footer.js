@@ -81,7 +81,7 @@ function Footer() {
           </div>
           <div className="flex flex-row justify-between">
             <div className="flex-start align-center">
-            <h1>hello</h1>
+            
             </div>
             
             <div className="w-4/5 border-[1px] border-[#4B718D] h-0"></div>
@@ -90,7 +90,7 @@ function Footer() {
           </div>
           
         </div>
-        <div className="flex justify-between w-full px-12">
+        <div className="flex justify-between w-full px-12 text-sm">
         <div className="flex">
           { <div className=" text-[#4B608D]">
             Copyright &copy; 2023, All Rights Reserved
