@@ -1,27 +1,27 @@
 import React from 'react'
 
-function Footer() {
+function FooterLag() {
   return (
-    <div className='md:hidden'>
-        <div className="mx-5 md:mx-10 justify-between space-y-8 border-[1px] border-[#4B718D] bg-[#091A3D] md:flex-col md:space-y-8">
-          <div className="p-4">
+    <div className='hidden md:block'>
+        <div className="mx-10 justify-between space-y-8 border-[1px] border-[#4B718D] bg-[#091A3D] md:flex-col md:space-y-8">
+          <div className="p-12">
           <div className="flex flex-col items-center justify-between space-y-12 md:flex-row md:justify-between md:space-y-0 md:items-start">
             
-              <div className="flex flex-col space-y-2 w-full">
-                <div className='flex justify-center'>
+              <div className="flex flex-col space-y-2">
+                <div>
                   <h1>Sign up for <span className="text-[#1CE7C2]">Job Alerts</span></h1>
                 </div>
-                <div className="flex flex-col space-y-4 md:flex-row md:space-x-4">
+                <div className="flex space-x-4">
                 <div className="flex">
                 <input
                   type="text"
-                  className=" px-4 py-2 w-full text-[#091A3D] focus:outline-none"
+                  className="px-4 py-2 mx-0  text-[#091A3D] focus:outline-none"
                   placeholder="Email"
                 />
                 </div>
-               <div className="w-full">
+               <div className="">
                <button
-                  className="px-4 py-2 w-full text-[#091A3D] font-semibold bg-[#1CE7C2] hover:bg-white focus:outline-none"
+                  className="px-6 py-2 text-[#091A3D] font-semibold bg-[#1CE7C2] hover:bg-white focus:outline-none"
                 >
                   Get job alerts
                 </button>
@@ -55,8 +55,8 @@ function Footer() {
               </a>
             </div> */}
           
-          <div className="flex flex-row  space-x-8 text-sm md:hidden">  
-            <div className="flex flex-col space-y-2 md:space-y-4 text-white">
+          <div className="flex flex-row space-x-14">  
+            <div className="flex flex-col space-y-2 text-white">
               <a href="#" className="text-[#1CE7C2] mb-4 hover:text-">Hire Talent</a>
               <a href="#" className="hover:text-">Web3</a>
               <a href="#" className="hover:text-">fintech Talent</a>
@@ -64,13 +64,13 @@ function Footer() {
               <a href="#" className="hover:text-">Sign Up</a>
               <a href="#" className="hover:text-">Login</a>
             </div>
-            <div className="flex flex-col space-y-2 md:space-y-4 text-white">
+            <div className="flex flex-col space-y-4 text-white">
               <a href="#" className="text-[#1CE7C2] mb-4 hover:text-">Jobs</a>
               <a href="#" className="hover:text-">Remote</a>
               <a href="#" className="hover:text-">Hybrid/Onsite</a>
             </div>
-            <div className="flex flex-col space-y-2 md:space-y-4 text-white">
-              <a href="#" className="text-[#1CE7C2] mb-2 md:mb-4 hover:text-">About</a>
+            <div className="flex flex-col space-y-4 text-white">
+              <a href="#" className="text-[#1CE7C2] mb-4 hover:text-">About</a>
               <a href="#" className="hover:text-">Calender</a>
               <a href="#" className="hover:text-">Podcasts</a>
               <a href="#" className="hover:text-">Resources</a>
@@ -90,8 +90,8 @@ function Footer() {
           </div>
           
         </div>
-        <div className="flex justify-center md:justify-between w-full px-12 text-xs md:sm">
-        <div className="hidden md:flex">
+        <div className="flex justify-between w-full px-12 text-sm">
+        <div className="flex">
           { <div className=" text-[#4B608D]">
             Copyright &copy; 2023, All Rights Reserved
           </div> }
@@ -101,15 +101,9 @@ function Footer() {
             <p>Privacy Policy_</p>
             <p>Disclaimer</p>
           </div>
-          
         </div>
-        <div className="flex text-xs justify-center md:hidden">
-          { <div className=" text-[#4B608D] ">
-            Copyright &copy; 2023, All Rights Reserved
-          </div> }
-          </div>
     </div>
   )
-  }
+}
 
-export default Footer
+export default FooterLag;
