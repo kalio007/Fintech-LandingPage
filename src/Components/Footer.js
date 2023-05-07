@@ -1,4 +1,5 @@
 import React from 'react'
+import logo from '../Assests/logo.svg'
 
 function Footer() {
   return (

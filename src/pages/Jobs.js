@@ -20,7 +20,7 @@ function Jobs() {
   return (
     <div className="container p-6 m-auto flex flex-col space-y-6">
         <div>
-            <h1 className='text-4xl font-bold text-center mb-6'>Open Roles</h1>
+            <h1 className='text-4xl font-bold text-center mb-6'>Some of our previous placements</h1>
         </div>
     <div className="grid grid-cols-2 gap-5 text-sm md:text-xl md:grid-cols-3 md:gap-10">
         {/* {

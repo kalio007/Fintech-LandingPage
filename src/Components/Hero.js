@@ -19,7 +19,7 @@ function Hero() {
             
             <div className="flex justify-center md:justify-start">
                 <button className="p-3 px-6  text-white border-2 border-white  baseline hover:bg-white">
-                    <a href="#"> JOB OPENINGS</a>
+                    <a href="https://app.ismartrecruit.com/openJobWebsite?tenantId=E7pZmludGVjaHJlY3J1aXRlcnMuY29tX1JVSHNNdXhXdWIQ9e&view=grid&lang=en">CURRENT OPENINGS</a>
                 </button>
             </div>
         </div>

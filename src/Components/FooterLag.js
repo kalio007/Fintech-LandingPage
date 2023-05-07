@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import logo from '../Assests/logo.svg'
+
 
 function FooterLag() {
   return (
@@ -9,55 +11,32 @@ function FooterLag() {
             
               <div className="flex flex-col space-y-2">
                 <div>
-                  <h1>Sign up for <span className="text-[#1CE7C2]">Job Alerts</span></h1>
+                  <h1>Sign up for <span className="text-[#FC7208]">Job Alerts</span></h1>
                 </div>
-                <div className="flex space-x-4">
+                <div className="flex space-x-4 ">
                 <div className="flex">
                 <input
                   type="text"
-                  className="px-4 py-2 mx-0  text-[#091A3D] focus:outline-none"
+                  className="px-4 py-2 mx-0  text-[#091A3D] bg-[#0C1F47] focus:outline-none"
                   placeholder="Email"
                 />
                 </div>
                <div className="">
                <button
-                  className="px-6 py-2 text-[#091A3D] font-semibold bg-[#1CE7C2] hover:bg-white focus:outline-none"
+                  className="px-6 py-2 text-[#091A3D] font-semibold bg-[#FC7208] hover:bg-white focus:outline-none"
                 >
                   Get job alerts
                 </button>
                </div>
                </div>
+               <div className='flex'>
+                <img src={logo} alt='footer_image' className='h-10' />
+               </div>
               </div>
-          
-            {/* <div>
-              <img src="./img/logo-white.svg" className="h-8" alt="" />
-            </div>
-            
-            <div className="flex justify-center space-x-4">
-              
-              <a href="#">
-                <img src="./img/icon-facebook.svg" alt="" className="h-8" />
-              </a>
-              
-              <a href="#">
-                <img src="img/icon-youtube.svg" alt="" className="h-8" />
-              </a>
-              
-              <a href="#">
-                <img src="img/icon-twitter.svg" alt="" className="h-8" />
-              </a>
-              <a href="#">
-                <img src="img/icon-pinterest.svg" alt="" className="h-8" />
-              </a>
-              
-              <a href="#">
-                <img src="img/icon-instagram.svg" alt="" className="h-8" />
-              </a>
-            </div> */}
-          
+
           <div className="flex flex-row space-x-14">  
             <div className="flex flex-col space-y-2 text-white">
-              <a href="#" className="text-[#1CE7C2] mb-4 hover:text-">Hire Talent</a>
+              <a href="#" className="text-[#FC7208] mb-4 hover:text-">Hire Talent</a>
               <a href="#" className="hover:text-">Web3</a>
               <a href="#" className="hover:text-">fintech Talent</a>
               <a href="#" className="hover:text-">AI</a>
@@ -65,12 +44,12 @@ function FooterLag() {
               <a href="#" className="hover:text-">Login</a>
             </div>
             <div className="flex flex-col space-y-4 text-white">
-              <a href="#" className="text-[#1CE7C2] mb-4 hover:text-">Jobs</a>
+              <a href="#" className="text-[#FC7208] mb-4 hover:text-">Jobs</a>
               <a href="#" className="hover:text-">Remote</a>
               <a href="#" className="hover:text-">Hybrid/Onsite</a>
             </div>
             <div className="flex flex-col space-y-4 text-white">
-              <a href="#" className="text-[#1CE7C2] mb-4 hover:text-">About</a>
+              <a href="#" className="text-[#FC7208] mb-4 hover:text-">About</a>
               <a href="#" className="hover:text-">Calender</a>
               <a href="#" className="hover:text-">Podcasts</a>
               <a href="#" className="hover:text-">Resources</a>
@@ -79,17 +58,25 @@ function FooterLag() {
           </div>
           </div>
           </div>
-          <div className="flex flex-row justify-between">
-            <div className="flex-start align-center">
+
+
+          <div className="flex flex-col">
+
+            <div className="w-full border-[1px] border-[#4B718D] h-0"></div>
             
+            <div className="flex flex-row-reverse">
+              <a href="#">
+                <img src="img/icon-youtube.svg" alt="hello" className="h-8" />
+              </a>
+
+              <a href="#">
+                <img src="img/icon-twitter.svg" alt="" className="h-8" />
+              </a>
             </div>
-            
-            <div className="w-4/5 border-[1px] border-[#4B718D] h-0"></div>
-            
-            
           </div>
-          
+           
         </div>
+
         <div className="flex justify-between w-full px-12 text-sm">
         <div className="flex">
           { <div className=" text-[#4B608D]">

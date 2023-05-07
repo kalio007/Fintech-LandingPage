@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import { HiMenuAlt3 } from 'react-icons/hi';
-import image from '../Assests/image.svg'
+import logo from '../Assests/logo.svg'
 
 
 function NavBar() {
@@ -17,12 +17,12 @@ function NavBar() {
         }
   return (
     <div className='w-full flex justify-between p-6 items-center border-shadow-2 '>
-            <img src={image} className='h-10' alt='logo'/>
+            <img src={logo} className='h-10' alt='logo'/>
             <div className="flex items-center justify-between">
             <div className=" hidden md:flex space-x-6">
-                <p className='text-xl'><a href="#" className="hover:text-darkGrayishBlue">Find a Job</a></p>
-                <p className='text-xl'><a href="#" className="hover:text-darkGrayishBlue">Hire Talent </a></p>
-                <p className='text-xl'><a href="#" className="hover:text-darkGrayishBlue">Let’s Chat!</a></p>
+                <p className='text-xl'><a href="" className="">Find a Job</a></p>
+                <p className='text-xl'><a href="" className="">Hire Talent </a></p>
+                <p className='text-xl'><a href="https://calendly.com/nako/quick-coffee-chat-10-mins" className="">Let’s Chat!</a></p>
             </div>
             </div>
             {/* <div className="hidden md:flex ">
@@ -35,9 +35,9 @@ function NavBar() {
                                 : 'absolute top-0 h-screen left-[-100%] ease-in duration-500 z-10'}
             >
                 <ul className='flex flex-col fixed w-full h-full items-center justify-center'>
-                    <li className='font-bold text-3xl p-8'><a href="#" className="hover:text-darkGrayishBlue">Find a Job</a></li>
-                    <li className='font-bold text-3xl p-8'><a href="Hire Talent" className="hover:text-darkGrayishBlue">_Hire Talent </a></li>
-                    <li className='font-bold text-3xl p-8'><a href="#" className="hover:text-darkGrayishBlue">Let’s Chat!_</a></li>
+                    <li className='font-bold text-3xl p-8'><a href="#" className="">Find a Job</a></li>
+                    <li className='font-bold text-3xl p-8'><a href="https://calendly.com/nako/web3employer?back=1&month=2023-05" className="">Hire Talent </a></li>
+                    <li className='font-bold text-3xl p-8'><a href="https://calendly.com/nako/quick-coffee-chat-10-mins" className="">Let’s Chat!</a></li>
                 </ul>
             </div>
         </div> 
