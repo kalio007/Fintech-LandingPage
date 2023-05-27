@@ -9,6 +9,8 @@ import Features from './Components/Features';
 // import Testimonal from './Components/Testimonal';
 import Footer from './Components/Footer';
 import FooterLag from './Components/FooterLag';
+import PastClient from './Components/PastClients';
+//import JObTest from './pages/jobTest';
 
 
 
@@ -21,6 +23,8 @@ function App() {
       <Hero/>
       <Features/>
       <Jobs/>
+      <PastClient />
+      {/* <JObTest/> */}
       {/* <Testimonal/> */}
       <Footer/>
       <FooterLag/>

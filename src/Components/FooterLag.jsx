@@ -1,5 +1,8 @@
 import React from 'react';
-import logo from '../Assests/logo.svg'
+import logo from '../Assests/logo.svg';
+import Image1 from '../Assests/in.svg';
+import Image2 from '../Assests/Vector.svg';
+import Image3 from '../Assests/Frame.svg';
 
 
 function FooterLag() {
@@ -60,17 +63,17 @@ function FooterLag() {
           </div>
 
 
-          <div className="flex flex-col">
+          <div className="flex flex-col ">
 
             <div className="w-full border-[1px] border-[#4B718D] h-0"></div>
             
-            <div className="flex flex-row-reverse">
-              <a href="#">
-                <img src="img/icon-youtube.svg" alt="hello" className="h-8" />
+            <div className="flex flex-row-reverse p-2 space-x-4">
+              <a href="https://www.youtube.com/c/FintechRecruiters">
+                <img src={Image1} alt="hello" className="h-8" />
               </a>
 
-              <a href="#">
-                <img src="img/icon-twitter.svg" alt="" className="h-8" />
+              <a href="https://twitter.com/fintechcareers">
+                <img src={Image3} alt="" className="h-8" />
               </a>
             </div>
           </div>

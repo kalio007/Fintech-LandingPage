@@ -4,7 +4,7 @@ import image from '../Assests/image.svg'
 function Hero() {
   return (
 
-    <div className="container flex flex-col-reverse m-10 p-20 md:flex-row items-center px-6 mx-auto mt-10 md:justify-between">
+    <div className="flex flex-col-reverse px-28 mx-auto py-20 md:flex-row md:justify-between items-center mt-10">
         
         <div className="flex flex-col space-y-10 mb-10">
             <h1 className="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left">
@@ -24,8 +24,8 @@ function Hero() {
             </div>
         </div>
         
-        <div className="flex justify-center">
-            <img src={image} alt="illustration intro" className='h-96 w-96'/>
+        <div className="flex justify-center pb-10">
+            <img src={image} alt="illustration intro" className='h-98 w-96'/>
         </div>
     </div>
 

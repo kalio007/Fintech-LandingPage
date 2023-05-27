@@ -16,10 +16,10 @@ function NavBar() {
             }
         }
   return (
-    <div className='w-full flex justify-between p-6 items-center border-shadow-2 '>
+    <div className='w-full flex justify-between px-10 py-6 items-center border-shadow-2 '>
             <img src={logo} className='h-10' alt='logo'/>
             <div className="flex items-center justify-between">
-            <div className=" hidden md:flex space-x-6">
+            <div className=" hidden md:flex space-x-10">
                 <p className='text-xl'><a href="" className="">Find a Job</a></p>
                 <p className='text-xl'><a href="" className="">Hire Talent </a></p>
                 <p className='text-xl'><a href="https://calendly.com/nako/quick-coffee-chat-10-mins" className="">Let’s Chat!</a></p>

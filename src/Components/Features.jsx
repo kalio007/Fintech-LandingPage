@@ -38,7 +38,7 @@ function Features() {
                     <br/>
                     Need help preparing for an upcoming interview at an AI, web3 or fintech startup?
 
-                    Nako provides <a href='' className='font-[#4B74FB]'>career coaching services</a> specifically designed for individuals who are new to the fields of web3, fintech, or AI. Our aim is to help you identify your distinct skills and strengths, and effectively align them with the high-demand roles within these industries. Take advantage of your background, experience, and expertise to pursue a rewarding career in web3, fintech, or AI.
+                    Nako provides <span className='text-[#4B74FB]'><a href=''>career coaching services</a></span> specifically designed for individuals who are new to the fields of web3, fintech, or AI. Our aim is to help you identify your distinct skills and strengths, and effectively align them with the high-demand roles within these industries. Take advantage of your background, experience, and expertise to pursue a rewarding career in web3, fintech, or AI.
                   </p>
                     <div className="flex justify-center md:justify-start">
               <button className="p-3 px-6  text-white border-[1px] border-[#4B718D] baseline hover:bg-white">
@@ -49,16 +49,17 @@ function Features() {
     </div>
     <div>
         <p>
-            Don’t see a role that’s a fit in the current openings? 
-            <a>Submit your resume</a> and we’ll get back to you when there’s an opening.
+            Don’t see a role that’s a fit in the current openings?
+            <br/> 
+            <span className='text-[#4B74FB]'><a>Submit your resume</a></span> and we’ll get back to you when there’s an opening.
         </p>
     </div>
   
       
       <div className="flex flex-col space-y-8 md:w-2/3 ">
           
-          <div className="relative border-[1px] border-[#4B718D] p-14 flex flex-col space-y-6 md:space-y-0 md:space-x-6 md:flex-row">
               
+          <div className="relative border-[1px] border-[#4B718D] p-14 flex flex-col space-y-6 md:space-y-0 md:space-x-6 md:flex-row">
               <div className="rounded-l-full md:bg-transparent">
                   <div class=" items-center">
                       <h3 className="font-semibold text-2xl md:mb-4 md:hidden">
